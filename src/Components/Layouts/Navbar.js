@@ -1,13 +1,15 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
+
 import Topheader from './Topheader';
 import MiddleHeader from './MiddleHeader';
+import BottomHeader from './BottomHeader';
 
 const Navbar = () =>{
-    return (
-    <>
-        <Topheader />
+    return (<>
+    
+        <Topheader/>
         <MiddleHeader />
+        <BottomHeader />
         </>
 
     )
