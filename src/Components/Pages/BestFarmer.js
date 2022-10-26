@@ -13,19 +13,19 @@ const BestFarmer = () => {
                 <h4>Best from farmers</h4>
                 <div className="flex">
                     <ul>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Carrot</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Tomatoes</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Potatoes</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Chicken</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Pork</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Carrot</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Tomatoes</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Potatoes</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Chicken</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Pork</a></li>
                         <li className='mt-4 dropdown'>
                             <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown">
                                 More products
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item text-green-400" href="#">Cotton</a></li>
-                                <li><a className="dropdown-item text-green-400" href="#">Flowers</a></li>
-                                <li><a className="dropdown-item text-green-400" href="#">Woods</a></li>
+                                <li><a className="dropdown-item text-green-400">Cotton</a></li>
+                                <li><a className="dropdown-item text-green-400">Flowers</a></li>
+                                <li><a className="dropdown-item text-green-400">Woods</a></li>
                             </ul>
                         </li>
                     </ul>

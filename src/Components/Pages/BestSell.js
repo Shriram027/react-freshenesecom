@@ -8,24 +8,24 @@ import { Image } from 'primereact/image';
 const BestSell = () => {
     return (
     <div className='flex mt-6'>
-        <div className='flex  md:col-12 mr-4'>
+        <div className='flex  md:col-12'>
             <div className='md:col-3'>
                 <h4>Best selling products</h4>
                 <div className="flex">
                     <ul>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Bakery</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Fruits and vegetables</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Meet and fish</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Drinks</a></li>
-                        <li className='mt-2'><a href='#' className='text-green-400'>Kitchen</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Bakery</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Fruits and vegetables</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Meet and fish</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Drinks</a></li>
+                        <li className='mt-2'><a  className='text-green-400'>Kitchen</a></li>
                         <li className='mt-4 dropdown'>
                             <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown">
                                 More products
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item text-green-400" href="#">Special nutritions</a></li>
-                                <li><a className="dropdown-item text-green-400" href="#">Baby</a></li>
-                                <li><a className="dropdown-item text-green-400" href="#">Pharmacy</a></li>
+                                <li><a className="dropdown-item text-green-400">Special nutritions</a></li>
+                                <li><a className="dropdown-item text-green-400">Baby</a></li>
+                                <li><a className="dropdown-item text-green-400">Pharmacy</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -4,23 +4,6 @@ import { Badge } from 'primereact/badge';
 
 
 
-// const aquaticCreatures = [
-//     { label: 'Bakery', value: 'Bakery' },
-//     { label: 'Fruits & Vegetables', value: 'Fruits & Vegetables' },
-//     { label: 'Meat & Fish', value: 'Meat & Fish' },
-//     { label: 'Drinks', value: 'Drinks' },
-//     { label: 'Kitchen', value: 'Kitchen' },
-//     { label: 'Special nutrition', value: 'Special nutrition' },
-//     { label: 'Baby', value: 'Baby' },
-//     { label: 'Pharmacy', value: 'Pharmacy' },
-// ];
-
-
-
-
-
-
-
 const MiddleHeader = () => {
     return (
         <div className='container-fluid'>

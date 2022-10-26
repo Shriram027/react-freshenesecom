@@ -11,9 +11,9 @@ const BottomHeader = () => {
                             Bakery
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Milk</a></li>
-                            <li><a className="dropdown-item" href="#">Butter</a></li>
-                            <li><a className="dropdown-item" href="#">Cheeze</a></li>
+                            <li><a className="dropdown-item" >Milk</a></li>
+                            <li><a className="dropdown-item" >Butter</a></li>
+                            <li><a className="dropdown-item" >Cheeze</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -21,9 +21,9 @@ const BottomHeader = () => {
                             Fruits and vegetables
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Apples</a></li>
-                            <li><a className="dropdown-item" href="#">Peas</a></li>
-                            <li><a className="dropdown-item" href="#">Papaya</a></li>
+                            <li><a className="dropdown-item" >Apples</a></li>
+                            <li><a className="dropdown-item" >Peas</a></li>
+                            <li><a className="dropdown-item" >Papaya</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -31,9 +31,9 @@ const BottomHeader = () => {
                             Meat and fish
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Fresh Fishes</a></li>
-                            <li><a className="dropdown-item" href="#">Chicken</a></li>
-                            <li><a className="dropdown-item" href="#">Mutton</a></li>
+                            <li><a className="dropdown-item" >Fresh Fishes</a></li>
+                            <li><a className="dropdown-item" >Chicken</a></li>
+                            <li><a className="dropdown-item" >Mutton</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -41,9 +41,9 @@ const BottomHeader = () => {
                             Drinks
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Cold drinks</a></li>
-                            <li><a className="dropdown-item" href="#">Water</a></li>
-                            <li><a className="dropdown-item" href="#">Wine</a></li>
+                            <li><a className="dropdown-item" >Cold drinks</a></li>
+                            <li><a className="dropdown-item" >Water</a></li>
+                            <li><a className="dropdown-item" >Wine</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -51,9 +51,9 @@ const BottomHeader = () => {
                             Kitchen
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Sugar</a></li>
-                            <li><a className="dropdown-item" href="#">Tea</a></li>
-                            <li><a className="dropdown-item" href="#">Coffee</a></li>
+                            <li><a className="dropdown-item" >Sugar</a></li>
+                            <li><a className="dropdown-item" >Tea</a></li>
+                            <li><a className="dropdown-item" >Coffee</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -61,9 +61,9 @@ const BottomHeader = () => {
                             Special nutrition
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Protiens</a></li>
-                            <li><a className="dropdown-item" href="#">Mass gainer</a></li>
-                            <li><a className="dropdown-item" href="#">Whey protien</a></li>
+                            <li><a className="dropdown-item" >Protiens</a></li>
+                            <li><a className="dropdown-item" >Mass gainer</a></li>
+                            <li><a className="dropdown-item" >Whey protien</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -71,9 +71,9 @@ const BottomHeader = () => {
                             Baby
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Chocklate</a></li>
-                            <li><a className="dropdown-item" href="#">Snacks and wappers</a></li>
-                            <li><a className="dropdown-item" href="#">Biscuits</a></li>
+                            <li><a className="dropdown-item" >Chocklate</a></li>
+                            <li><a className="dropdown-item" >Snacks and wappers</a></li>
+                            <li><a className="dropdown-item" >Biscuits</a></li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -81,9 +81,9 @@ const BottomHeader = () => {
                             Pharmacy
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Pain killer</a></li>
-                            <li><a className="dropdown-item" href="#">First-add</a></li>
-                            <li><a className="dropdown-item" href="#">Fractures</a></li>
+                            <li><a className="dropdown-item" >Pain killer</a></li>
+                            <li><a className="dropdown-item" >First-add</a></li>
+                            <li><a className="dropdown-item" >Fractures</a></li>
                         </ul>
                     </div>
                 </div>
