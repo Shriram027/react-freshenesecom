@@ -13,7 +13,7 @@ const Topheader = () => {
                 </div>
                 <div className='flex md:col-6 flex-row-reverse flex-wrap'>
                 <span className='mr-4 text-green-400'>Careers</span>
-                    <span className='mr-4 text-green-400'>About</span>
+                    <span className='mr-4 text-green-400'>About Us</span>
                     <span className='mr-4 text-green-400'>Blog</span>
                 </div>
             </div>

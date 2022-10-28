@@ -1,30 +1,25 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import MainFooter from "./Components/Layouts/MainFooter";
-import Navbar from './Components/Layouts/Navbar';
-import ProductFooter from "./Components/Layouts/ProductFooter";
-import BestFarmer from "./Components/Pages/BestFarmer";
-import BestSell from "./Components/Pages/BestSell";
-import Blogs from "./Components/Pages/Blogs";
-import Category from "./Components/Pages/Category";
-import Headline from "./Components/Pages/Headline";
-import Reviews from "./Components/Pages/Reviews";
+
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Header from "./Components/Layouts/Header";
+import Home from "./Views/Home";
+import Fruit from "./Components/Pages/Fruit";
+import Footer from "./Components/Layouts/Footer";
 
 
 function App() {
-  return (<>
-
-    <Navbar />
-    <Category />
-    <BestSell />
-    <BestFarmer />
-    <Reviews />
-    <Headline />
-    <Blogs />
-    <MainFooter />
-    <ProductFooter />
-  </>
-
+  return (<Router>
+    <div className = "App-container" >
+  <Header />
+  
+  <Routes>
+    <Route  path="/" element= {<Home />} />
+    <Route  path="/fruits" element={<Fruit />}/>
+    </Routes>
+    <Footer />
+     </div>
+     </Router>
 
   );
 }

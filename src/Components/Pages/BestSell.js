@@ -13,19 +13,19 @@ const BestSell = () => {
                 <h4>Best selling products</h4>
                 <div className="flex">
                     <ul>
-                        <li className='mt-2'><a  className='text-green-400'>Bakery</a></li>
-                        <li className='mt-2'><a  className='text-green-400'>Fruits and vegetables</a></li>
-                        <li className='mt-2'><a  className='text-green-400'>Meet and fish</a></li>
-                        <li className='mt-2'><a  className='text-green-400'>Drinks</a></li>
-                        <li className='mt-2'><a  className='text-green-400'>Kitchen</a></li>
+                        <li className='mt-2 text-green-400'>Bakery</li>
+                        <li className='mt-2 text-green-400'>Fruits and vegetables</li>
+                        <li className='mt-2 text-green-400'>Meet and fish</li>
+                        <li className='mt-2 text-green-400'>Drinks</li>
+                        <li className='mt-2 text-green-400'>Kitchen</li>
                         <li className='mt-4 dropdown'>
                             <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown">
                                 More products
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item text-green-400">Special nutritions</a></li>
-                                <li><a className="dropdown-item text-green-400">Baby</a></li>
-                                <li><a className="dropdown-item text-green-400">Pharmacy</a></li>
+                                <li className="dropdown-item text-green-400">Special nutritions</li>
+                                <li className="dropdown-item text-green-400">Baby</li>
+                                <li className="dropdown-item text-green-400">Pharmacy</li>
                             </ul>
                         </li>
                     </ul>

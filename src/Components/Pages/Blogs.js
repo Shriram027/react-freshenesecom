@@ -25,8 +25,8 @@ const Blogs = () => {
             </div>
         </div>
 
-        <div className='col-12 mt-4'>
-            <div className='md:col-4'>
+        <div className='grid col-12 mt-4'>
+            <div className='grid md:col-4 justify-content-center'>
                 <div className="card w-10">
                     <div className="card-body">
                         <Image src="https://cdn.pixabay.com/photo/2017/07/31/04/11/tomato-2556426_960_720.jpg" alt="Image" width="350" />
@@ -35,8 +35,7 @@ const Blogs = () => {
                             <h6 className='card-subtitle text-900'>Our chef tips for a great and tasty dinner ready IN 20 minutes</h6>
                             
                                 <div className="flex align-items-left justify-content-start">
-                                    <img className="img-thumbnail" style={myStyle}
-                                        src="https://media.istockphoto.com/photos/conceptual-background-on-history-education-literature-topics-picture-id1022236966?k=20&m=1022236966&s=612x612&w=0&h=e-HzMiErRUSyyS7RPuFcXbOmHFQkC8i0cYjPHTPRGKI=" />
+                                    <img src="https://media.istockphoto.com/photos/conceptual-background-on-history-education-literature-topics-picture-id1022236966?k=20&m=1022236966&s=612x612&w=0&h=e-HzMiErRUSyyS7RPuFcXbOmHFQkC8i0cYjPHTPRGKI=" className="img-thumbnail" alt="images" style={myStyle}/>
 
                                     <span className="flex align-items-center justify-content-center ml-4">
                                         <h6 className="text-100">Author    17.01.2022</h6>
@@ -49,17 +48,17 @@ const Blogs = () => {
                 </div>
             </div>
 
-            <div className='flex md:col-3 mt-8'>
+            <div className='grid md:col-2 mt-8 justify-content-end'>
                 <h4 className="text-green-400">Vegetables</h4>
-                <h6 className="text-dark">Which vegetable your family<span>will love and wants eat</span><span>each day.</span></h6>
+                <h6 className="text-dark mb-8">Which vegetable your family<br/>will love and wants eat<br/>each day.</h6>
             </div>
-            <div className='flex md:col-5'>
+            <div className='grid md:col-5 justify-content-center'>
                 <ul>
-                    <li ><a>Salat is kind good start to<br /> your morning routine</a>
+                    <li >Salat is kind good start to<br /> your morning routine
                         <br /><h6 className="mt-2">Author    15.01.2020</h6></li>
-                    <li className="mt-4"><a>Our chef tips for a great and<br />healthy breakfast</a>
+                    <li className="mt-4">Our chef tips for a great and<br />healthy breakfast
                         <br /><h6 className="mt-2">Author    15.01.2020</h6></li>
-                    <li className="mt-4"><a>Prepare a simple and<br />delicious breads</a>
+                    <li className="mt-4">Prepare a simple and<br />delicious breads
                         <br /><h6 className="mt-2">Author    15.01.2020</h6></li>
                 </ul>
 

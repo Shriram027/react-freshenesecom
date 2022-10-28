@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 
 const BottomHeader = () => {
@@ -11,9 +12,9 @@ const BottomHeader = () => {
                             Bakery
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Milk</a></li>
-                            <li><a className="dropdown-item" >Butter</a></li>
-                            <li><a className="dropdown-item" >Cheeze</a></li>
+                            <li className="dropdown-item">Milk</li>
+                            <li className="dropdown-item">Butter</li>
+                            <li className="dropdown-item">Cheeze</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -21,9 +22,11 @@ const BottomHeader = () => {
                             Fruits and vegetables
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Apples</a></li>
-                            <li><a className="dropdown-item" >Peas</a></li>
-                            <li><a className="dropdown-item" >Papaya</a></li>
+                            <li>
+                        <NavLink className="dropdown-item"  to="/fruits">Apples</NavLink></li>
+                            
+                            <li className="dropdown-item" >Peas</li>
+                            <li className="dropdown-item" >Papaya</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -31,9 +34,9 @@ const BottomHeader = () => {
                             Meat and fish
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Fresh Fishes</a></li>
-                            <li><a className="dropdown-item" >Chicken</a></li>
-                            <li><a className="dropdown-item" >Mutton</a></li>
+                            <li className="dropdown-item" >Fresh Fishes</li>
+                            <li className="dropdown-item" >Chicken</li>
+                            <li className="dropdown-item" >Mutton</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -41,9 +44,9 @@ const BottomHeader = () => {
                             Drinks
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Cold drinks</a></li>
-                            <li><a className="dropdown-item" >Water</a></li>
-                            <li><a className="dropdown-item" >Wine</a></li>
+                            <li className="dropdown-item" >Cold drinks</li>
+                            <li className="dropdown-item" >Water</li>
+                            <li className="dropdown-item" >Wine</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -51,9 +54,9 @@ const BottomHeader = () => {
                             Kitchen
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Sugar</a></li>
-                            <li><a className="dropdown-item" >Tea</a></li>
-                            <li><a className="dropdown-item" >Coffee</a></li>
+                            <li className="dropdown-item" >Sugar</li>
+                            <li className="dropdown-item" >Tea</li>
+                            <li className="dropdown-item" >Coffee</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -61,9 +64,9 @@ const BottomHeader = () => {
                             Special nutrition
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Protiens</a></li>
-                            <li><a className="dropdown-item" >Mass gainer</a></li>
-                            <li><a className="dropdown-item" >Whey protien</a></li>
+                            <li className="dropdown-item" >Protiens</li>
+                            <li className="dropdown-item" >Mass gainer</li>
+                            <li className="dropdown-item" >Whey protien</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -71,9 +74,9 @@ const BottomHeader = () => {
                             Baby
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Chocklate</a></li>
-                            <li><a className="dropdown-item" >Snacks and wappers</a></li>
-                            <li><a className="dropdown-item" >Biscuits</a></li>
+                            <li className="dropdown-item" >Chocklate</li>
+                            <li className="dropdown-item" >Snacks and wappers</li>
+                            <li className="dropdown-item" >Biscuits</li>
                         </ul>
                     </div>
                     <div className="dropdown">
@@ -81,9 +84,9 @@ const BottomHeader = () => {
                             Pharmacy
                         </button>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" >Pain killer</a></li>
-                            <li><a className="dropdown-item" >First-add</a></li>
-                            <li><a className="dropdown-item" >Fractures</a></li>
+                            <li className="dropdown-item" >Pain killer</li>
+                            <li className="dropdown-item" >First-add</li>
+                            <li className="dropdown-item" >Fractures</li>
                         </ul>
                     </div>
                 </div>

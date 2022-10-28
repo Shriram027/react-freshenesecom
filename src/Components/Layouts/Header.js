@@ -4,7 +4,7 @@ import Topheader from './Topheader';
 import MiddleHeader from './MiddleHeader';
 import BottomHeader from './BottomHeader';
 
-const Navbar = () =>{
+const Header = () =>{
     return (<>
     
         <Topheader/>
@@ -15,4 +15,4 @@ const Navbar = () =>{
     )
 }
 
-export default Navbar;
+export default Header;

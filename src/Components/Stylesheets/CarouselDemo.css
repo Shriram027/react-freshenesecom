@@ -1,5 +1,5 @@
 .carousel-demo .product-item .product-item-content {
-    border: 1px solid var(--surface-d);
+    border: 3px solid var(--surface-d);
     border-radius: 3px;
     margin: .3rem;
     text-align: center;
@@ -7,8 +7,13 @@
 }
 
 .carousel-demo .product-item .product-image {
-    width: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-       
+.carousel-demo{
+    border : 0px;
+}
+
+ .p-carousel-indicators{
+    display: none !important;
+    }
