@@ -5,7 +5,7 @@ import { Image } from 'primereact/image';
 const Headline = () => {
     return (<>
         <div className="flex mt-8">
-            <div className="md:col-6  ml-8">
+            <div className="md:col-6 justify-content-start">
                 <h5>Section headline</h5>
             </div>
             <span className="md:col-6 flex justify-content-end">

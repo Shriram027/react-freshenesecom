@@ -17,7 +17,7 @@ const Blogs = () => {
 
     return (<>
         <div className="flex col-12 mt-8">
-            <div className="md:col-6 justify-content-start ml-4">
+            <div className="md:col-6 justify-content-start">
                 <h5>Read our blog posts</h5>
             </div>
             <div className="flex md:col-6 justify-content-end">

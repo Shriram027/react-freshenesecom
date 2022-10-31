@@ -3,8 +3,11 @@ import { Button } from 'primereact/button';
 
 
 const ProductFooter = ()=>{
-    return (<div className="mt-4">
-        <h4 className='justify-content-start'>Product tags</h4>
+    return (<>
+    <div className="col-12 mt-4">
+        <h4>Product tags</h4>
+        </div>
+
         <div className='grid col-12'>
         <div className='md:col-1'><Button label="Beans" className="p-button-text text-dark" /></div>
         <div className='md:col-1'><Button label="Carrots" className="p-button-text text-dark" /></div>
@@ -28,9 +31,9 @@ const ProductFooter = ()=>{
         <div className='md:col-2'><Button label="Fresh food" className="p-button-text text-dark" /></div>
         </div>
 
-        <div className='mt-4'><p>Copyright © 2020 petrbilek.com</p></div>
+        <div className='mt-4 col-12'><p>Copyright © 2020 petrbilek.com</p></div>
 
-    </div>)
+        </>)
 }
 
 export default ProductFooter;
