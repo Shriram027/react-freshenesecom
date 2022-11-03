@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "../Stylesheets/style.css";
 import { Button } from 'primereact/button';
 import { Image } from 'primereact/image';
-import ProductService from '../../Services/ProductService';
+
 
 
 
 const BestSell = () => {
-    const [products, setProducts] = useState([]);
     return (
     <div className='flex mt-6'>
         <div className='flex  md:col-12'>

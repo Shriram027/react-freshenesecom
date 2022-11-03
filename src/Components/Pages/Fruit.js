@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import { SelectButton } from 'primereact/selectbutton';
-import Categories from './Categories';
+
 
 
 
@@ -21,7 +20,7 @@ const Fruit = () => {
                 <span className='ml-4'><NavLink className='text-green-400' style={sty}>117 </NavLink> Products</span>
             </div>
         </div>
-        <Categories/>
+        
     </>
     )
 }

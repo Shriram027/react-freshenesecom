@@ -4,10 +4,6 @@ import { Image } from 'primereact/image';
 
 const Blogs = () => {
 
-    // const gradient = {
-    //     background: linear - gradient(rgba(250, 0, 0, 0.5), transparent),
-    //     backgroundColor: gray
-    // }
 
     const myStyle = {
         height: "50px",
