@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Fruit from "./Fruit";
 import { Button } from 'primereact/button';
 import { Slider } from 'primereact/slider';
 import BrandSelection from "./BrandSelection";
@@ -8,15 +7,13 @@ import axios from "axios";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
+import FruitView from "../../Views/FruitView";
 
 const GridCategory = () => {
     const sliderStyle = {
         width: "150px"
     }
 
-    const sty = {
-        textDecoration: "none"
-    }
 
     const [value5, setValue5] = useState([20, 80]);
 
@@ -36,6 +33,8 @@ const GridCategory = () => {
     }, []);
 
     const getColumnsForRow = () => {
+        <FruitView count = {products.length}/>
+        debugger
         let items = products.map((product, index) => {
             return (
                 <Col>
@@ -58,7 +57,6 @@ const GridCategory = () => {
     };
 
     return (<>
-        <Fruit />
         <div className='grid col-12 mt-6'>
             <div className='md:col-3 ml-2'>
                 <h4>Categories</h4>
