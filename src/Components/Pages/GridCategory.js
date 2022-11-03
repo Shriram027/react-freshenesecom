@@ -7,7 +7,7 @@ import axios from "axios";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import FruitView from "../../Views/FruitView";
+
 
 const GridCategory = () => {
     const sliderStyle = {
@@ -27,14 +27,10 @@ const GridCategory = () => {
     };
 
     useEffect(() => {
-
         fetchProducts()
-
     }, []);
 
     const getColumnsForRow = () => {
-        <FruitView count = {products.length}/>
-        debugger
         let items = products.map((product, index) => {
             return (
                 <Col>
