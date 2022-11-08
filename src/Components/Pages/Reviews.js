@@ -30,7 +30,6 @@ const Reviews = () => {
     useEffect(() => {
         productService.getProductsSmall().then(data => {
             setProducts(data.slice(0, 9));
-            debugger;
 
         });
     });

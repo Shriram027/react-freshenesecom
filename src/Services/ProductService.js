@@ -7,9 +7,4 @@ export default class ProductService {
 
     }
 
-    getProducts(){
-        let a =  axios.get('https://freshness-app-new.herokuapp.com/products').then(result=>result);
-        console.log(a);
-        return a;
-    }
 }

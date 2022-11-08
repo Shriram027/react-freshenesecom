@@ -5,11 +5,11 @@ import { NavLink } from 'react-router-dom';
 import { Button } from 'primereact/button';
 
 
-const FruitView = (props) => {
+const FruitView = ({countData}) => {
     const [cName, setClassName] = useState('jsGridView');
-    const sty = {
-        textDecoration: "none"
-    }
+    // const sty = {
+    //     textDecoration: "none"
+    // }
     return (<>
         <div className='grid col-12 mt-4'>
             <div className='md:col-4 ml-2'>
@@ -19,7 +19,7 @@ const FruitView = (props) => {
                 <Button label="Grid view" className="p-button-text" icon="pi pi-table" onClick={() => setClassName('jsGridView')} />
                 <Button label="List view" className="p-button-text" icon="pi pi-list" onClick={() => setClassName('jsListView')} />
 
-                <span className='ml-4'><NavLink className='text-green-400' style={sty}>117</NavLink> Products</span>
+                <span className='ml-4'><NavLink className='text-green-400'>{countData}</NavLink> Products</span>
             </div>
         </div>
         <div className="col-12">
